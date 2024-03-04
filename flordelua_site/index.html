@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="/public/css/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Flor de Lua Ink</title>
+    
+</head>
+<body>
+    
+    
+
+    <header>
+
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+
+
+        <img class="logo" src="/public/assets/images/logo.png" alt="Logo Flor de Lua Ink">
+
+        <div class="links-menu">
+            <a href="#sobre">Sobre</a>
+            <i class="fa-brands fa-pagelines"></i>
+            <a href="#informacoes">Informações</a>
+            <i class="fa-brands fa-pagelines"></i>
+            <a href="#portfolio">Portfólio</a>
+            <i class="fa-brands fa-pagelines"></i>
+            <a href="#faq">Faq</a>
+            <i class="fa-brands fa-pagelines"></i>
+            <a href="#contato">Contato</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="sobre" id="sobre">
+
+            <div class="sobre-texto">
+                <h1>Flor de Lua Ink</h1>
+                <p>Bem-vindo à Flor de Lua Ink, seu destino para expressão artística através da arte da tatuagem. Localizada no coração da cidade, somos uma equipe apaixonada de artistas dedicados a transformar suas ideias em obras-primas vivas na pele.</p>
+            </div>
+
+            <div>
+                <img class="sobre-imagem" src="/public/assets/images/sobre-img.webp" alt="background">
+            </div>
+        </section>
+
+
+        <section class="informacoes" id="informacoes">
+            <div class="info-item">
+                <i class="fa-solid fa-pen-fancy fa-2xl"></i>
+                <h1>Processo de Tatuagem</h1>
+                <p>Nossa abordagem ao processo de tatuagem é uma fusão de arte e técnica, cuidadosamente guiada por suas ideias e nossa expertise. Cada sessão é uma colaboração única, resultando em uma obra que transcende a pele para contar sua história pessoal.</p>
+                <button>Ver mais</button>
+            </div>
+
+            <div class="info-item">
+                <i class="fa-solid fa-feather fa-2xl"></i>
+                <h1>Depoimentos de Clientes</h1>
+                <p>Os depoimentos e avaliações dos nossos clientes são a essência do nosso trabalho, refletindo a confiança depositada em nós para eternizar momentos especiais. Cada comentário é uma celebração do vínculo que criamos e da qualidade do nosso serviço.</p>
+                <button>Ver mais</button>
+            </div>
+
+            <div class="info-item">
+                <i class="fa-solid fa-wand-magic fa-2xl"></i>
+                <h1>Compromisso a Arte</h1>
+                <p>Nossa paixão pela tatuagem vai além do estúdio, estendendo-se à nossa comunidade e além. <br> Acreditamos fervorosamente em usar nossa arte como uma ferramenta para promover a inclusão, expressão e impacto positivo em todos os aspectos da vida.
+                </p> 
+                <button>Ver mais</button>               
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <div class="portfolio-item" >
+                <h1>Portfólio</h1>
+            </div>
+
+            <div class="portfolio-item">
+                <div>
+                    <img src="/public/assets/images/tattos_1.jpg">
+                </div>
+
+                <div >
+                    <img src="/public/assets/images/tattos_2.jpg">
+                </div>
+
+                <div>
+                    <img src="/public/assets/images/tattos_3.jpg">              
+                </div>
+            </div>
+        </section>
+
+        <section class="faq" id="faq">
+
+            <h1>Faq</h1>
+
+            <div faq-item>
+                <ul>
+                    <li><a href="#resposta1" onclick="mostrarResposta('resposta1')">Como funciona o processo de agendamento de uma consulta?</a></li>
+                    <li id="resposta1" class="resposta">Para agendar uma consulta, você pode entrar em contato conosco por telefone ou através do nosso site para verificar a disponibilidade. Durante a consulta, discutiremos suas ideias, preferências e disponibilidade de agenda para agendar a sessão de tatuagem.</li>
+
+                    <li><a href="#pergunta2" onclick="mostrarResposta('resposta2')">Quanto tempo leva para fazer uma tatuagem?</a></li>
+                    <li id="resposta2" class="resposta">O tempo necessário para fazer uma tatuagem varia dependendo do tamanho, complexidade e detalhes do design. Tatuagens menores podem levar apenas algumas horas, enquanto tatuagens maiores ou mais detalhadas podem exigir múltiplas sessões ao longo de vários dias ou semanas.</li>
+
+
+                    <li><a href="#pergunta3" onclick="mostrarResposta('resposta3')">Posso trazer um design próprio ou vocês criam o design para mim?</a></li>
+                    <li id="resposta3" class="resposta">Aceitamos tanto designs próprios quanto podemos criar um design personalizado para você. Durante a consulta, discutiremos suas ideias e trabalharemos juntos para criar um design que atenda às suas expectativas.</li>
+
+
+                    <li><a href="#pergunta4" onclick="mostrarResposta('resposta4')">Qual é a diferença entre uma tatuagem personalizada e uma tatuagem pré-fabricada?</a></li>
+                    <li id="resposta4" class="resposta">Uma tatuagem personalizada é um design único criado especificamente para você, enquanto uma tatuagem pré-fabricada é um design que já existe e está disponível para qualquer pessoa tatuar. Tatuagens personalizadas oferecem originalidade e significado pessoal, enquanto tatuagens pré-fabricadas são mais comuns e podem ser escolhidas de um catálogo.</li>
+
+
+                    <li><a href="#pergunta5" onclick="mostrarResposta('resposta5')">Quais são os cuidados recomendados após fazer uma nova tatuagem?</a></li>
+                    <li id="resposta5" class="resposta">Após fazer uma nova tatuagem, é importante manter a área limpa e seguir as instruções fornecidas pelo tatuador. Isso geralmente inclui lavar a tatuagem com sabão neutro, aplicar uma pomada antibiótica e evitar exposição excessiva ao sol ou à água.</li>
+
+
+                    <li><a href="#pergunta6" onclick="mostrarResposta('resposta6')">Quanto tempo leva para uma tatuagem cicatrizar completamente?</a></li>
+                    <li id="resposta6" class="resposta">O tempo de cicatrização varia de pessoa para pessoa e também depende do tamanho e da localização da tatuagem. Em média, leva de duas a quatro semanas para uma tatuagem cicatrizar completamente.</li>
+
+
+                    <li><a href="#pergunta7" onclick="mostrarResposta('resposta7')">Posso nadar ou tomar sol após fazer uma tatuagem?</a></li>
+                    <li id="resposta7" class="resposta">É recomendado evitar nadar em piscinas, banheiras de hidromassagem ou no mar e evitar a exposição direta ao sol enquanto a tatuagem estiver cicatrizando para evitar infecções e desbotamento da tatuagem.</li>
+
+
+                    <li><a href="#pergunta8" onclick="mostrarResposta('resposta8')">Quais medidas vocês tomam para garantir a higiene do estúdio?</a></li>
+                    <li id="resposta8" class="resposta">Seguimos rigorosos protocolos de higiene, incluindo a esterilização de equipamentos, o uso de materiais descartáveis e a limpeza regular do ambiente de trabalho para garantir a segurança e o bem-estar de nossos clientes.</li>
+
+
+                    <li><a href="#pergunta9" onclick="mostrarResposta('resposta9')">Quais materiais são utilizados durante o processo de tatuagem?</a></li>
+                    <li id="resposta9" class="resposta">Durante o processo de tatuagem, utilizamos agulhas esterilizadas descartáveis, tintas de alta qualidade e outros materiais descartáveis, como luvas e aventais.</li>
+
+
+                    <li><a href="#pergunta10" onclick="mostrarResposta('resposta10')">Vocês seguem algum protocolo específico de esterilização?</a></li>
+                    <li id="resposta10" class="resposta">Sim, seguimos protocolos rigorosos de esterilização recomendados pelas autoridades de saúde para garantir a segurança de nossos clientes. Isso inclui a esterilização de equipamentos, o uso de materiais descartáveis e a manutenção de um ambiente limpo e seguro.</li>
+
+
+                    <li><a href="#pergunta11" onclick="mostrarResposta('resposta11')">Como são determinados os preços das tatuagens?</a></li>
+                    <li id="resposta11" class="resposta">Os preços das tatuagens são determinados com base no tamanho, complexidade e tempo necessário para concluir o design. Durante a consulta, forneceremos um orçamento com base nas suas especificações.</li>
+
+
+                    <li><a href="#pergunta12" onclick="mostrarResposta('resposta12')">É necessário pagar um depósito para agendar uma consulta?</a></li>
+                    <li id="resposta12" class="resposta">Sim, geralmente requeremos um depósito para agendar uma consulta, que será deduzido do custo total da tatuagem.</li>
+
+
+                    <li><a href="#pergunta13" onclick="mostrarResposta('resposta13')">Qual é a política de reagendamento ou cancelamento?</a></li>
+                    <li id="resposta13" class="resposta">Nossa política de reagendamento e cancelamento varia, mas geralmente requeremos aviso prévio de pelo menos 24 horas para reagendar ou cancelar uma consulta sem incorrer em taxas adicionais.</li>
+
+
+                    <li><a href="#pergunta14" onclick="mostrarResposta('resposta14')">Posso fazer uma tatuagem se estiver grávida ou amamentando?</a></li>
+                    <li id="resposta14" class="resposta">Não recomendamos fazer uma tatuagem durante a gravidez ou enquanto estiver amamentando devido aos potenciais riscos para a saúde do bebê.</li>
+
+
+                    <li><a href="#pergunta15" onclick="mostrarResposta('resposta15')">Vocês oferecem cobertura de tatuagens antigas ou cicatrizes?</a></li>
+                    <li id="resposta15" class="resposta">Sim, oferecemos serviços de cobertura de tatuagens antigas ou cicatrizes. Durante a consulta, discutiremos suas opções e trabalharemos para criar um design que atenda às suas necessidades.</li>
+
+
+                    <li><a href="#pergunta16" onclick="mostrarResposta('resposta16')">Qual é a idade mínima para fazer uma tatuagem no estúdio?</a></li>
+                    <li id="resposta16" class="resposta">A idade mínima para fazer uma tatuagem em nosso estúdio é de 18 anos. Podemos solicitar identificação para verificar a idade do cliente antes de iniciar o procedimento.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="contato" id="contato">
+
+            <h1>Faça um orçamento</h1>
+
+            <div class="contato-itens">
+                <form action="" >
+                    <div class="form-group">
+                        <label for="nome" >Nome</label>
+                        <input type="text" name="nome" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" name="telefone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="descricao">Descrição</label>
+                        <textarea name="descricao"  cols="30" rows="10" required></textarea>
+                    </div>
+
+                    <div class="form-group-arquivo">
+                        <label for="arquivo">Selecione um arquivo:</label>
+                        <input type="file" id="arquivo" name="arquivo" accept=".pdf, .doc, .docx">
+                    </div>
+
+                    <button class="botao-enviar" type="submit" value="Enviar">Enviar</button>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Flor de Lua Ink - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/public/scripts/script.js"></script>
+    
+</body>
+</html>
+
+
